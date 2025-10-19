@@ -1,0 +1,162 @@
+.heading{
+    background-color: rgb(244, 140, 188);
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    text-align:center;
+    border:5px red solid;
+
+}
+
+.image ul{
+    list-style:none;
+    font-weight: bold;
+    font-size:25px;
+}
+.image li{
+    padding-top: 15px;
+    padding-bottom: 15px 0;
+    list-style-position: inside;
+    text-align:center;
+    background-image:url('../images/check.jpg');
+    background-size:20px 18px;
+    font-size:16px;
+    
+}
+.image li{
+    animation:colorShift 2s infinite alternate;
+
+}
+@keyframes colorShift {
+    0%{color:black;}
+    50%{color:red;}
+    100%{color:#46026d;}
+    
+}
+.home a{
+    color:white;
+    text-decoration: none;
+    word-spacing: 2.5px;
+}
+.home {
+    
+    background-color:#333;
+    text-align:center;
+    
+}
+.home ul{
+    padding:10px;
+    list-style:none;
+  
+}
+.home li{
+    display:inline;
+    margin:0px 15px;
+}
+
+.about{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:blue;
+    font-weight:bold;
+    
+}
+
+.para{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin:15px;
+    line-height:2em;
+    background-color: rgb(250, 223, 252);
+    border:3px palevioletred dotted;
+    padding:20px 20px;
+    border-radius:20px;
+
+}
+.events {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:blue;
+    font-weight:bold;
+    
+    
+}
+.bullet{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin:15px;
+    background-color:rgb(191,191,250);
+    border:3px rgb(201, 135, 249) dotted;
+    padding:20px 20px;
+    border-radius:20px;
+}
+.workshop{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:blue;
+    font-weight:bold;
+}
+.types{
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin:15px;
+    background-color:rgb(199, 247, 213);
+    border:3px rgb(231, 248, 157) dotted;
+    padding:20px 20px;
+    border-radius:20px; 
+}
+.registration{
+    color:indigo;
+    font-size:16px;
+
+}
+.label1{
+    margin:15px;
+    padding:7.5px;
+}
+.label2{
+    margin:15px;
+    padding:7.5px;
+}
+.email{
+    margin:15px;
+    padding:7.5px;
+}
+.gender{
+    margin:15px;
+    padding:7.5px;
+}
+.dob{
+    margin:15px;
+    padding:7.5px;
+}
+.contact{
+    margin:15px;
+    padding:7.5px;
+}
+.Address{
+    margin:15px;
+    padding:7.5px;
+}
+.button input[type="submit"]{
+    font-size:16px;
+    text-align:center;
+    background-color:green;
+    color:white;
+    margin:25px;
+    
+}
+.button input[type="submit"]:hover{
+     background-color: red;
+     color:white;
+}
+
+
+#main-footer{
+    background-color:black;
+    color:white;
+    padding:5px ;
+
+    text-align:center;
+}
+
